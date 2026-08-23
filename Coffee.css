@@ -1,0 +1,240 @@
+nav {
+  display:flex;
+  justify-content:end;
+  align-items:center;
+  background-color:#38261e;
+  border-radius:15px;
+  padding:10px;
+  position:sticky;
+  top:0;
+}
+
+ul {
+  list-style:none;
+  display:flex;
+  justify-content:center;
+  gap:10px;
+  align-items:center;
+}
+
+nav a{
+  text-decoration:none;
+  color:white;
+}
+
+nav li {
+  text-decoration:none;
+  color:white;
+  font-size:15px;
+}
+
+nav a:hover {
+  color:#8c5332;
+  text-decoration:underline;
+}
+
+.side {
+    text-decoration:none;
+    border-radius:15px;
+    background-color:#8c5332;
+    color:white;
+    padding:12px;
+    margin-right:20px;
+}
+
+nav img {
+    width:100px;
+}
+
+.dropdown button {
+  color:white;
+  background-color:#38261e;
+  border:none;
+  width:50px;
+  height:20px;
+  cursor:pointer;
+  font-weight:bold;
+}
+
+.dropdown .content {
+  box-shadow: 2p 2px 5px black;
+  background-color:#38261e;
+  width:50px;
+  position:absolute;
+  display:none;
+  right:0;
+  min-width:150px;
+}
+
+.dropdown a {
+  text-decoration:none;
+  color:white;
+  display:block;
+  padding:10px 15px;
+  text-align:left;
+  white-space:nowrap;
+}
+
+.dropdown:hover .content {
+  display:block;
+}
+
+.dropdown a:hover {
+  color:black;
+}
+
+.dropdown {
+  margin-right:5px;
+}
+
+.hero {
+    height:100vh;
+    background: url("coffe.jpg");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center;
+}
+
+.style {
+    color:black;
+    font-size:20px;
+}
+
+.style1 {
+    color:#38261e;
+    font-size:60px;
+    font-weight:800;
+}
+
+.btn {
+    background-color: #8c5332;
+    color:white;
+    border-radius:10px;
+    display:inline-block;
+    padding:5px;
+    border:1px solid black;
+}
+
+.btn a {
+    text-decoration:none;
+    color:white;
+}
+
+.style3 {
+    position:relative;
+    display:inline-block;
+    color:#38261e;
+    font-size:45px;
+    font-weight:900;
+}
+
+html {
+    scroll-behavior:smooth;
+}
+
+.style3::after {
+    content:"";
+    position:absolute;
+    bottom:-10px;
+    left:50%;
+    width:40px;
+    height:4px;
+    background-color:#38261e;
+    transform: translatex(-50%)
+}
+
+body {
+    font-family: "Sora", sans-serif;
+    background-color:#f2ebe1;
+}
+
+.grid {
+    margin-top:80px;
+}
+
+.container {
+    background-color:antiquewhite;
+    border-radius:15px;
+    text-align:center;
+    padding:20px;
+    display:inline-block;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.hero2 {
+    height:100vh;
+    background:url("about.jpg");
+    background-size:cover;
+    background-position:center;
+}
+
+.contact-item {
+    display:flex;
+    align-items:center;
+    gap:15px;
+    margin-bottom:20px;
+}
+
+.icon {
+    font-size:40px;
+    color:#38261e;
+}
+
+.contact-item p {
+    font-size:20px;
+    margin:0;
+}
+
+
+.madeby {
+    background-color:#38261e;
+    color:white;
+    text-align:center;
+    padding:10px;
+}
+
+.imgcontainer {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+}
+
+a {
+    text-decoration:none;
+}
+
+.hero3 {
+    display:flex;
+    justify-content:flex-end;
+    height:100vh;
+    background: url("contact.jpg");
+    background-size:cover;
+    background-position:center;
+}
+
+.left {
+    text-align:left;
+}
+
+.left p {
+    font-size:25px;
+}
+
+.btn a:hover {
+    color:black;
+    text-decoration:underline;
+}
+
+.hero-text {
+    font-size:20px;
+}
+
+#menu {
+  scroll-margin-top:90px;
+}
+
+#contact {
+  scroll-margin-top:40px;
+}

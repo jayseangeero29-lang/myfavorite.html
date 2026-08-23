@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>TP Cycles | Login</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+
+height:100vh;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+background:url("Go.jpeg") center center/cover no-repeat;
+
+}
+
+body::before{
+
+content:"";
+
+position:absolute;
+
+top:0;
+left:0;
+
+width:100%;
+height:100%;
+
+background:rgba(0,0,0,.65);
+
+}
+
+.login-box{
+
+position:relative;
+
+z-index:5;
+
+width:380px;
+
+background:rgba(255,255,255,.10);
+
+backdrop-filter:blur(15px);
+
+padding:40px;
+
+border-radius:20px;
+
+text-align:center;
+
+border:1px solid rgba(255,255,255,.2);
+
+box-shadow:0 15px 35px rgba(0,0,0,.35);
+
+}
+
+.logo{
+
+width:80px;
+
+margin-bottom:15px;
+
+}
+
+h2{
+
+color:white;
+
+margin-bottom:10px;
+
+}
+
+p{
+
+color:#ddd;
+
+margin-bottom:25px;
+
+}
+
+input{
+
+width:100%;
+
+padding:15px;
+
+margin:10px 0;
+
+border:none;
+
+outline:none;
+
+border-radius:10px;
+
+font-size:16px;
+
+}
+
+button{
+
+width:100%;
+
+padding:15px;
+
+margin-top:20px;
+
+border:none;
+
+border-radius:40px;
+
+background:#ff9800;
+
+color:white;
+
+font-size:17px;
+
+font-weight:600;
+
+cursor:pointer;
+
+}
+
+button:hover{
+
+background:#d97f00;
+
+}
+
+.links{
+
+margin-top:25px;
+
+}
+
+.links a{
+
+display:block;
+
+text-decoration:none;
+
+color:white;
+
+margin:10px 0;
+
+font-size:15px;
+
+}
+
+.links a:hover{
+
+color:#ff9800;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="login-box">
+
+<img src="TPlogo.png" class="logo">
+
+<h2>Member Login</h2>
+
+<p>Welcome back to TP Cycles</p>
+
+<form>
+
+<input type="text"
+placeholder="Username"
+required>
+
+<input type="password"
+placeholder="Password"
+required>
+
+<button type="submit">
+
+Login
+
+</button>
+
+</form>
+
+<div class="links">
+
+<a href="Signup.html">
+
+Create an Account
+
+</a>
+
+<a href="Index.html">
+
+← Back to Website
+
+</a>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
